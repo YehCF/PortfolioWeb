@@ -1,0 +1,166 @@
+
+body {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.featured_items {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contact_items {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media screen and (min-width: 0px) {
+
+	.header {
+		width: 100%;
+		order: -3;
+	}
+
+	.header_title {
+		padding-top: 25px;
+		font-size: 3em;
+	}
+
+	.header_description {
+		font-size: 1em;
+	}
+
+	.sidebar {
+		width: 100%;
+		order: -2;
+	}
+
+	.middle_picture {
+		height: 300px;
+	}
+
+	.contact_item {
+		width: 10%;
+		margin-right: 10px;
+	}
+
+	.main_content {
+		width: 100%;
+	}
+
+	.picture_description_lines {
+		font-size: 1.1em;
+	}
+
+	.featured_works_title {
+		font-size: 1.5em;
+	}
+
+	.featured_item {
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media screen and (min-width: 501px) {
+	
+	.middle_picture {
+		height: 400px;
+	}
+
+	.picture_description_lines {
+		font-size: 1.5em;
+	}
+
+}
+
+
+@media screen and (min-width: 600px) {
+	
+	.header_title {
+		padding-top: 25px;
+		font-size: 4em;
+	}
+
+	.picture_description_lines {
+		font-size: 1.7em;
+	}
+
+	.featured_item {
+		width: 40%;
+	}
+
+}
+
+@media screen and (min-width: 800px) {
+
+	.header {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		order: -3;
+	}
+
+	.header:before {
+		display: box;
+		width: 25%;
+		content: "";
+	}
+
+	.header_inner {
+		width: 75%;
+	}
+
+	.middle_picture {
+		height: 500px;
+	}
+
+	.picture_description_lines {
+		font-size: 2em;
+	}
+
+	.sidebar {
+		width: 25%;
+		order: -2;
+	}
+
+	.main_content {
+		width: 75%;
+		order: 0;
+	}
+
+	.featured_item {
+		width: 30%;
+	}
+
+	.contact_item {
+		width: 20%;
+	}
+
+}
+
+@media screen and (min-width: 1000px) {
+
+	.header_inner {
+		width: 750px;
+		margin-right: auto;
+	}	
+	.hedaer:before {
+		width: 250px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.main_content {
+		width: 750px;
+		margin-right: auto;
+	}
+
+	.sidebar {
+		width: 250px;
+		margin-left: auto;
+	}
+}
+
+
