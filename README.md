@@ -4,11 +4,11 @@ This is one of the projects in FSND of Udacity to build up my own portfolio webs
 
 ## Content
 
-* index.html: the main structure of my portfolio
+* index.html: the __main structure__ of my portfolio
 
-* style.css: the css style for my website (using flex to arrange all the building blocks in html)
+* style.css: the __css style__ for my website (using `flex` to arrange all the building blocks in html)
 
-* responsive.css: the responsiveness of my website (using @media)
+* responsive.css: the __responsiveness__ of my website (using `@media`)
 
 ## Validation
 
