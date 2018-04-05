@@ -6,56 +6,63 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>Kevin's Portfolio</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" type="text/css" href="responsive.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="responsive.css">
 		<link href="https://fonts.googleapis.com/css?family=Chicle%7CCourgette%7CIndie+Flower%7CLobster%7CShadows+Into+Light" rel="stylesheet">
 	</head>
 	<body>
 
-		<section class="sidebar">
-			<h2 class="sidebar_title">About Me</h2>
-			<article class="my_story">
-				<h3 class="my_story_title">--My Story--</h3>
-				<p class="my_story_lines">Dedicated to be a trans-disciplinary person, I am absorbing and practicing both medical knowldege and computer science techniques, ranging from occupational therapy, ophthalmology, deep learning and programming. Moreover, I'm fond of Design Thiking, previously selected as one of 30 Alumni Coaches as part of the inaugural IDEO U Alumni Fellowship program.</p>
-			</article>
-			<div class="contact_info">	
+		<div class="sidebar">
+			<aside class="sidebar_text">
+				<h2 class="sidebar_title">About Me</h2>
+				<article class="my_story">
+					<h3 class="my_story_title">--My Story--</h3>
+					<p class="my_story_lines">Dedicated to be a trans-disciplinary person, I am absorbing and practicing both medical knowldege and computer science techniques, ranging from occupational therapy, ophthalmology, deep learning and programming. Moreover, I'm fond of Design Thiking, previously selected as one of 30 Alumni Coaches as part of the inaugural IDEO U Alumni Fellowship program.</p>
+				</article>
+			</aside>
+			<aside class="contact_info">	
 				<h4 class="contact_info_title">--Contact--</h4>
-				<div class="contact_items">
-					<div class="contact_item">
+				<div class="contact_info_items">
+					<div class="contact_info_item">
 						<a href="https://www.linkedin.com/in/chun-fu-yeh-784172ab/">
-							<img class="contact_item_image" src="images/if_linkedin_386655.png" alt="linkedin">
+							<img class="contact_info_item_image" src="images/if_linkedin_386655.png" alt="linkedin">
 						</a>
 					</div>
-					<div class="contact_item">
+					<div class="contact_info_item">
 						<a href="https://github.com/YehCF">
-							<img class="contact_item_image" src="images/if_mark-github_298822.png" alt="github">
+							<img class="contact_info_item_image" src="images/if_mark-github_298822.png" alt="github">
 						</a>
 					</div>
-					<div class="contact_item">
+					<div class="contact_info_item">
 						<a href="https://www.facebook.com/profile.php?id=100000424280864">
-							<img class="contact_item_image" src="images/if_facebook_386622.png" alt="facebook">
+							<img class="contact_info_item_image" src="images/if_facebook_386622.png" alt="facebook">
 						</a>
 					</div>
 				</div>
-			</div>
-		</section>
+			</aside>
+		</div>
 
 
 		<header class="header">
 			<div class="header_inner">
-				<img class="header_cover_photo" src="images/cover%20photo.jpg" alt="cover_photo">
-				<h1 class="header_title">Kevin Yeh</h1>
-				<h2 class="header_description">self-learning enthusiast</h2>
+				<div class="header_inner_cover_box">
+					<img class="header_inner_cover_photo" src="images/cover%20photo.jpg" alt="cover_photo">
+				</div>
+				<div class="header_inner_text">
+					<h1 class="header_inner_title">Kevin Yeh</h1>
+					<h2 class="header_inner_description">self-learning enthusiast</h2>
+				</div>
 			</div>
 		</header>
 
 		<div class="main_content">
-			<div class="middle_picture">
+			<div class="middle_box">
 				<div class="picture_description">
 					<p class="picture_description_lines">My self-learning journey starts from ... </p>
 				</div>
+				<img class="middle_image" src="images/self%20learning.jpg" alt="middle_image">
 			</div>
-			<section class="featured_works">
+			<aside class="featured_works">
 				<h2 class="featured_works_title">Featured Work</h2>
 				<div class="featured_items">
 					<div class="featured_item">
@@ -74,7 +81,7 @@
 						<a class="feature_item_link" href="https://github.com/YehCF/AIND-VUI">https://github.com/YehCF/AIND-VUI</a>					
 					</div>
 				</div>
-			</section>
+			</aside>
 		</div>
 			
 
